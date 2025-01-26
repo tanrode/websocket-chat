@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-const socket = new WebSocket("ws://192.168.128.1:8080");
+const socket = new WebSocket("wss://192.168.128.1:8080");
 // const socket = new WebSocket("tanapp.freewebhostmost.com");
 
 function App() {
